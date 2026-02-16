@@ -16,12 +16,12 @@ body {
 }
 
 .main {
-    background-image: url(assests/images/bg.jpg);
+    background-image: url("images/assets/bg.jpg");
     height: 95vh;
     position: relative;
-    background-position: center center;
-    background-size: max(1200px, 100vw);
-    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   /* ← change this */
+    background-repeat: no-repeat
 }
 
 .main .box {
