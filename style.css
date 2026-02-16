@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    /* background-size: cover;
+    /* scales image to cover entire area */
+    background-position: center;
+    /* keeps image centered */
+    /* background-repeat: no-repeat; */
+    */
+}
+
+.main {
+    background-image: url(assests/images/bg.jpg);
+    height: 95vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.70;
+    height: 95vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    max-width: 72vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 100px;
+    padding-top: 18px;
+}
+
+nav img {
+    color: red;
+    width: 145px;
+    z-index: 10;
+    position: relative;
+}
+
+nav button {
+    z-index: 10;
+    position: relative;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    z-index: 10;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0px 23px;
+
+
+}
+
+.hero> :first-child {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 72px;
+
+}
+
+.hero> :nth-child(2) {
+    font-size: 52px;
+    font-weight: 900;
+    /* line-height: 72px; */
+    margin-top: 1rem;
+
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.hero> :nth-child(4) {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(37, 36, 36);
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 7px 19px;
+    background-color: rgba(158, 131, 131, 0.203);
+    font-weight: 400px;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 9px 30px;
+    border-radius: 4px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+ .main input {
+    padding: 9px 54px 8px 16px;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    font-weight: 200px border: 1px solid rgba(243, 243, 243, 0.5);
+    color: white;
+}
+
+.btn-red-sn {
+    background-color: red;
+    color: white;
+    margin-left: 4px;
+
+}
+
+.hero-but {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.btn-eng {
+    padding: 2px;
+}
+
+.first {
+    display: flex;
+    color: white;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    padding: 72px;
+
+}
+
+/* Common container */
+.secimg {
+    position: relative;
+    width: 30vw;
+}
+
+/* Image always on top */
+.secimg img {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+/* FIRST VIDEO (TV section) */
+.first .secimg video {
+    position: absolute;
+    top: 13%;
+    left: 13%;
+    width: 74%;
+    height: 74%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* SECOND VIDEO (Device pile section) */
+.third .secimg video {
+    position: absolute;
+    top: 8%;
+    left: 18%;
+    width: 62%;
+    height: 55%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+
+
+section.first div {
+    display: flex;
+    flex-direction: column;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.faq {
+    color: white;
+    justify-items: center;
+    padding: 34px;
+    font-size: 37px;
+    font-weight: 900;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+.faqbox:hover{
+    background-color: rgb(37,36, 36);
+}
+.faqbox {
+    max-width: 1024px;
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    font-size: 24px;
+    font-weight: 400px;
+    display: flex;
+    margin: 7px auto;
+    padding: 24px;
+    justify-content: space-between;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+.email{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+.hero-but>input{
+      padding: 9px 54px 8px 16px;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    font-weight: 200px border: 1px solid rgba(243, 243, 243, 0.5);
+    color: white;
+}
+footer{
+    color: white;
+    max-width: 65vw;
+    margin: auto;
+    padding: 34px;
+}
+.footer a{
+    font-size: 14px;
+    color: white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgba(255, 255, 255, 0.708);
+ max-width: 65vw;
+    margin: auto;
+    margin-top: -50px;
+
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.question{
+    padding: 34px 0;
+}
